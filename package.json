@@ -1,0 +1,40 @@
+{
+  "name": "@jg/netsuite-rest-api",
+  "version": "1.0.0",
+  "description": "NetSuite Rest API Client",
+  "main": "./netsuite-rest-api.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "utils",
+    "utilities",
+    "fye",
+    "suitetalk",
+    "web services",
+    "netsuite",
+    "client"
+  ],
+  "contributors": [
+    "Nicholas Penree",
+    "Brian Kurtz",
+    "Benjamin Hemingway",
+    "Tim Monroe",
+    "Alvin Paz",
+    "Jawaid Gadiwala"
+  ],
+  "homepage": "",
+  "license": "ISC",
+  "dependencies": {
+    "etl": "^0.6.12",
+    "got": "^11.8.6",
+    "oauth-1.0a": "^2.2.6"
+  },
+  "devDependencies": {
+    "ava": "^3.14.0",
+    "nock": "^13.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
